@@ -1,0 +1,9 @@
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = input
+[push]
+	default = simple
+[user]
+	name = Alexey Tsitkin
+	email = ...
