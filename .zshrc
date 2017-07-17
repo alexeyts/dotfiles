@@ -1,3 +1,8 @@
+# If you come from bash you might have to change your $PATH.
+export PATH="/usr/local/bin:$PATH"
+
+export EDITOR=vi
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/atsitkin/.oh-my-zsh
 
@@ -49,11 +54,10 @@ ZSH_THEME="blinks"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow git-extras themes python cp mvn common-aliases dircycle command-not-found extract urltools compleat web-search history history-substring-search brew sbt)
+plugins=(aws brew celery chucknorris common-aliases compleat dircycle django docker encode64 fabric git git-extras history mvn npm pip python redis-cli sbt scala sudo urltools virtualenvwrapper yarn)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -82,7 +86,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-source aliases.txt
-
-PATH=/opt/scala/scala-2.10.4/bin:$PATH
