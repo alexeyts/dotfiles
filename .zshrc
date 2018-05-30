@@ -54,7 +54,7 @@ ZSH_THEME="blinks"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aws brew celery chucknorris common-aliases compleat dircycle django docker encode64 fabric git git-extras history mvn npm pip python redis-cli sbt scala sudo urltools virtualenvwrapper yarn)
+plugins=(aws brew chucknorris common-aliases compleat dircycle django docker encode64 fabric git git-extras history mvn npm per-directory-history pip python redis-cli sbt scala sudo urltools virtualenvwrapper yarn)
 
 # User configuration
 
